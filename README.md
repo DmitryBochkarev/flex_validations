@@ -20,6 +20,29 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
+integer.validate(1).success? #=> true
+integer.validate("foo").fail? #=> true
+
+case 1
+when integer
+  puts "This is integer"
+when string
+  puts "This is string"
+end
+
+[1, "1.5", 2, 2.3].select(&integer) #=> [1, 2]
+
+puts integer
+#=> value.is_a?(Integer) should succeed
+
+puts integer.validate(1)
+#=> 1.is_a?(Integer) succeed
+
+puts integer.validate("foo")
+#=> "foo".is_a?(Integer) failed
+```
+
 ### Simple predicate
 
 ```ruby

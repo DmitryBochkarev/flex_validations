@@ -114,7 +114,12 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/validations.
+Bug reports and pull requests are welcome on GitHub at https://github.com/DmitryBochkarev/validations.
+
+## Authors
+
+[Dmitry Bochkarev](email:dimabochkarev@gmail.com) - original author
+[Korotaev Danil](https://github.com/cynek) - gem name
 
 
 ## License

@@ -118,8 +118,8 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/Dmitry
 
 ## Authors
 
-[Dmitry Bochkarev](email:dimabochkarev@gmail.com) - original author
-[Korotaev Danil](https://github.com/cynek) - gem name
+- [Dmitry Bochkarev](email:dimabochkarev@gmail.com) - original author
+- [Korotaev Danil](https://github.com/cynek) - gem name
 
 
 ## License
